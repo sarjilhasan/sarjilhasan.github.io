@@ -1,0 +1,56 @@
+#nav {
+    list-style-type: none;
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+#navBar {
+    text-align: center;
+    max-width: 710px;
+    margin: 0 auto;
+}
+
+div {
+    display: block;
+    color: white;
+    text-align: center;
+    
+}
+a {
+    text-decoration: none;
+}
+
+#navStyle {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+  text-align: center;
+}
+
+body {
+    background-image: url("http://wallpapercave.com/wp/FIRzA63.jpg");
+}
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    #navBar {
+        text-align: center;
+        width: 100% !important;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+#nav {
+    display: block !important;
+    margin-bottom: 5px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+}
