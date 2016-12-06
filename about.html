@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+   <head><link rel="stylesheet" type="text/css" href="about.css">
+           <link rel="stylesheet" type="text/css" href="index.css">
+         <link rel="stylesheet" href="normailize.css">
+         <meta name="viewport" content="width=device-width">
+         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no"></head></head>
+         <title>How to</title>
+   <body>
+       <h1>
+            <a href="index.html"><img src="https://s17.postimg.org/dsh4au6en/Pic_Monkey_Sample.png"/></a>
+        </h1>
+       <div id="navBar">
+            <ul id="nav">
+                <li><a href="index.html" id="navStyle">Home</a></li>
+                <li><a href="about.html" id="navStyle">How to</a></li>
+                <li><a href="binary.html" id="navStyle">Binary Converter</a></li> 
+            </ul>
+        </div>
+    	<div class="item content dark padding-bottom-60" id="content_section1">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-md-4 text-center">
+    				   	<img alt="" src="http://scripteden.com/builder/bootstrap/images/loading.gif">
+    				   	<div class="editContent">		   	    					
+    					<h3>How To</h3>
+    						
+    					<p>
+    						To convert a binary (base 2) number to a decimal (base 10), you will need to:
+    						<ol>
+    						    <li>Count how many digits there are from right to left and write it in the bottom.</li>
+    						    <li>Look at every '1' with the place holder you put from counting how many digits there were. </li>
+    						    <li>Now take the '1' and multiply it by '2' to the place holder it falls into. 
+    						        <p>
+    						            Ex. 1 x 2^4, where 4 is the 4th digit in the number's length. 
+    						        </p>
+    						    </li>
+    						    <li>We do not care about the '0's because anything times '0' is just '0'.</li>
+    						    <li>After you have times everything by '2', add up all the results.</li>
+    						    <li>CONGRATS! You just converted your first binary number to a decimal.</li>
+    						    <p>Now <em>YOU</em> try converting your own binary number into a decimal number. Click on the button below to check your results.</p>
+    						</ol>
+    					</p>
+    				   	</div>
+    					<a href="binary.html" class="btn btn-primary btn-embossed">TRY Here!</a>
+    				</div>
+    				<div class="col-md-4 text-center">
+    				    <img alt="" src="https://s17.postimg.org/dsh4au6en/Pic_Monkey_Sample.png">
+    			</div>
+    		</div>
+    	</div>
+    </body>
+</html>
